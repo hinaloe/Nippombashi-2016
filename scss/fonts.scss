@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import "var";
+@import "mixins";
+
+
+// placeholders
+@include placeholder ("font-family",$font-family);
+
+// Main typography
+
+body,
+button,
+input,
+select,
+textarea
+{
+  @include ff ($serif-set)
+}
+
+code,
+kbd,
+tt,
+var,
+samp,
+pre
+{
+  @include ff( $mono-set )
+}
+
+// form
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+
+.post-password-form label,
+
+// menus
+.main-navigation,
+.post-navigation,
+.post-navigation .post-title,
+.pagination,
+.image-navigation,
+.comment-navigation,
+
+// widgets
+.widget .widget-title,
+.widget_recent_entries .post-date,
+.widget_rss cite,
+.tagcloud a,
+
+// header
+.site-title,
+
+// posts and pages
+.entry-title,
+.entry-footer,
+.sticky-post,
+.page-title,
+.page-links,
+
+// comments
+.comments-title,
+.comment-reply-title ,
+.comment-metadata,
+.pingback .edit-link,
+.comment-reply-link,
+.comment-form label,
+.no-comments,
+
+// multisite
+.widecolumn label,
+.widecolumn .mu_register label
+{
+  @include ff($font-family)
+}

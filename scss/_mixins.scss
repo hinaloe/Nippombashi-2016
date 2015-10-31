@@ -1,0 +1,13 @@
+@mixin ff ($font) {
+  font-family: $font;
+}
+
+@mixin placeholder ($option, $val) {
+  @each $prefix in '::-webkit-input-', ':-moz-', '::-moz-', ':-ms-input-' {
+    #{$prefix}placeholder {
+      #{$option}: $val;
+    }
+  }
+}
+
+

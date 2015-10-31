@@ -1,0 +1,5 @@
+.svnignore
+.gitignore
+.git
+.sass-cache
+.ruby-version
