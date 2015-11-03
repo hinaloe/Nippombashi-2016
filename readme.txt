@@ -1,4 +1,4 @@
-=== TwentySixteen Japanese Fonts ===
+=== Nippombashi 2016 ~ TwentySixteen Japanese Fonts ~ ===
 Contributors: hnle
 Donate link: http://www.amazon.co.jp/registry/wishlist/1G28YYNTP7RL6
 Tags: font, Twenty Sixteen
