@@ -1,11 +1,10 @@
-# Copyright (C) 2015 TwentySixteen Japanese fonts
-# This file is distributed under the same license as the TwentySixteen Japanese fonts package.
+# Copyright (C) 2015 Nippombashi 2016
+# This file is distributed under the same license as the Nippombashi 2016 package.
 msgid ""
 msgstr ""
-"Project-Id-Version: TwentySixteen Japanese fonts 0.1\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/twentysixteen-"
-"japanese-fonts\n"
-"POT-Creation-Date: 2015-10-31 17:23:41+00:00\n"
+"Project-Id-Version: Nippombashi 2016 0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/nippombashi-2016\n"
+"POT-Creation-Date: 2015-11-09 12:25:40+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +13,7 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
 #. Plugin Name of the plugin/theme
-msgid "TwentySixteen Japanese fonts"
+msgid "Nippombashi 2016"
 msgstr ""
 
 #. Description of the plugin/theme
