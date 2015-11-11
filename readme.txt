@@ -1,5 +1,5 @@
 === Nippombashi 2016 ~ TwentySixteen Japanese Fonts ~ ===
-Contributors: hnle
+Contributors: hnle, mayukojpn, spicagraph
 Donate link: http://www.amazon.co.jp/registry/wishlist/1G28YYNTP7RL6
 Tags: font, Twenty Sixteen
 Requires at least: 4.4
@@ -27,5 +27,11 @@ Font set is with reference to the following page.
 
 == Changelog ==
 
+= 0.2 =
+* fix theme name
+* fix i18n 
+
 = 0.1 =
 * initial release
+
+
