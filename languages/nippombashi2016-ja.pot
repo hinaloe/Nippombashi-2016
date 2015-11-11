@@ -17,7 +17,7 @@ msgid "Nippombashi 2016"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Optimize TwentySixteen's font for Japanese"
+msgid "Optimize Twenty Sixteen's font for Japanese"
 msgstr ""
 
 #. Author of the plugin/theme

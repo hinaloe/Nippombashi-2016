@@ -1,0 +1,31 @@
+# Copyright (C) 2015 Twenty Sixteen Japanese fonts
+# This file is distributed under the same license as the TwentySixteen Japanese fonts package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Twenty Sixteen Japanese fonts 0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/twentysixteen-japanese-fonts\n"
+"POT-Creation-Date: 2015-10-31 17:23:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-11-11 15:03+0900\n"
+"Last-Translator: Hinaloe <hina@hinaloe.net>\n"
+"Language-Team: hinaloe <hina@hinaloe.net>\n"
+"Language: ja\n"
+"X-Generator: Poedit 1.7.5\n"
+
+#: Plugin Name of the plugin/theme
+msgid "Twenty Sixteen Japanese fonts"
+msgstr "Twenty Sixteen Japanese fonts"
+
+#: Nippombashi2016/ts-fonts.php:4
+msgid "Optimize Twenty Sixteen's font for Japanese"
+msgstr "Twenty Sixteen のフォントを日本語に最適化します。"
+
+#. Author of the plugin/theme
+msgid "Hinaloe"
+msgstr "Hinaloe"
+
+#. Author URI of the plugin/theme
+msgid "https://hinaloe.net/"
+msgstr "https://hinaloe.net/"
