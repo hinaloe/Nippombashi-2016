@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Nippombashi 2016
-Description: Optimize TwentySixteen's font for Japanese
+Description: Optimize Twenty Sixteen's font for Japanese
 Version: 0.1
 Author: Hinaloe
 Author URI: https://hinaloe.net/
