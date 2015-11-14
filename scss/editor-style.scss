@@ -1,0 +1,16 @@
+@charset "utf-8";
+@import "var";
+@import "mixins";
+
+body {
+  @include ff( $serif-set )
+}
+
+code,
+kbd,
+tt,
+var,
+samp,
+pre {
+  @include ff ( $mono-set )
+}
