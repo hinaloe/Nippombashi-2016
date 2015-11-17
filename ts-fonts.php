@@ -21,3 +21,12 @@ if ( ! function_exists( 'twentysixteen_setup' ) ) {
   wp_enqueue_style ( 'twentysixteen-japanese-font', plugin_dir_url (__FILE__ ) . 'css/fonts.' . $extension ,array( 'twentysixteen-style' ) );
 }
 add_action ( 'wp_enqueue_scripts', 'tsf_loadcss', 11 );
+
+function tsf_editorcss () {
+if ( ! function_exists( 'twentysixteen_setup' ) ) {
+  return;
+}
+  $extension = defined ( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? 'css' : 'min.css';
+  add_editor_style ( array ( plugins_url ( 'css/fonts.' . $extension , __FILE__ ) ) );
+}
+add_action ( 'admin_init', 'tsf_editorcss', 11 );
