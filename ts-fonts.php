@@ -22,11 +22,14 @@ if ( ! function_exists( 'twentysixteen_setup' ) ) {
 }
 add_action ( 'wp_enqueue_scripts', 'tsf_loadcss', 11 );
 
-function tsf_editorcss () {
-if ( ! function_exists( 'twentysixteen_setup' ) ) {
-  return;
-}
+function tsf_editorcss( $mce_css ) {
+  if ( ! function_exists( 'twentysixteen_setup' ) ) {
+    return;
+  }
   $extension = defined ( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? 'css' : 'min.css';
-  add_editor_style ( array ( plugins_url ( 'css/fonts.' . $extension , __FILE__ ) ) );
+	if ( ! empty( $mce_css ) )
+		$mce_css .= ',';
+	$mce_css .= plugins_url ( 'css/fonts.' . $extension , __FILE__ );
+	return $mce_css;
 }
-add_action ( 'admin_init', 'tsf_editorcss', 11 );
+add_filter( 'mce_css', 'tsf_editorcss' );
