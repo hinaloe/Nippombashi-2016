@@ -27,6 +27,9 @@ Font set is with reference to the following page.
 
 == Changelog ==
 
+= 0.3 =
+* TinyMCE Integration
+
 = 0.2 =
 * fix theme name
 * fix i18n 
