@@ -15,6 +15,7 @@ Change the font of TwentySixteen to Gothic that was adapted to the Japanese. Dif
 WordPress の標準テーマ「Twenty Sixteen」のフォントセットを、難しい設定なしに、読みやすく美しい日本語へ変更します。
 
 more details in Japanese: https://hinaloe.net/portfolio/nippombashi-2016
+
 ---
 
 It will change the font set of Twenty Sixteen to those easy to read beautifully in Japanese without troublesome setting.
