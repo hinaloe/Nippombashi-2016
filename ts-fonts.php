@@ -25,7 +25,7 @@ add_action( 'wp_enqueue_scripts', 'tsf_loadcss', 11 );
 
 function tsf_editorcss( $mce_css ) {
 	if ( ! function_exists( 'twentysixteen_setup' ) ) {
-		return;
+		return $mce_css;
 	}
 	$extension = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? 'css' : 'min.css';
 	if ( ! empty( $mce_css ) ) {
