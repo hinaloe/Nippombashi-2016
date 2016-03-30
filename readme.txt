@@ -26,6 +26,9 @@ Font set is with reference to the following page.
 
 == Changelog ==
 
+= 0.5 =
+* Fix a bug: Cannot load editor style when you use the theme not twentysixteen
+
 = 0.4 =
 * fix pot file name
 
