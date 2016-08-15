@@ -3,7 +3,7 @@ Contributors: hnle, mayukojpn, spicagraph
 Donate link: http://www.amazon.co.jp/registry/wishlist/1G28YYNTP7RL6
 Tags: font, Twenty Sixteen
 Requires at least: 4.4
-Tested up to: 4.4.2
+Tested up to: 4.6
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
